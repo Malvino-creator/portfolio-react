@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
+
+
 
 const handleClick = () => {
   
@@ -9,7 +12,9 @@ const Home = () =>{
       <h1>
         Hello, I'm Malvin Opondo,
         <p>A Fullstack Software Engineer. </p>
-        <button className='btn'>Check my Work! </button>
+        <Link to="/src/Components/home.js">
+        <button className='btn'> Check my Work! </button>
+        </Link>
       </h1>
     </div>
   )
